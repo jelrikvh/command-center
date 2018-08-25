@@ -1,0 +1,46 @@
+li.unit {
+    border: 1px solid #f0f0f0;
+    border-bottom: 2px solid #e6e6e6;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 0.1em;
+    padding: 0.5em 0.5em 0.2em;
+}
+
+li.unit:hover {
+    background-color: #adcad6;
+    border-color: #adcad6;
+    cursor: pointer;
+}
+
+li.unit .role {
+    flex: 1 1 10%;
+    height: 20px;
+    margin-top: -0.3em;
+    margin-left: -0.5em;
+    width: 20px;
+}
+
+li.unit .name {
+    flex: 2 2 50%;
+    font-weight: bold;
+}
+
+li.unit .labels {
+    color: #006e90;
+    flex: 1 1 15%;
+    font-size: 0.9em;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+li.unit .tags {
+    align-self: flex-end;
+    flex: 1 1 25%;
+    height: available;
+    text-align: right;
+}
+
+li.unit .tags img {
+    height: 30px;
+}
